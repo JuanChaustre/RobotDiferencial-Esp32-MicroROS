@@ -1,0 +1,31 @@
+# Local credentials and network configuration
+**/secrets.h
+
+# PlatformIO and Arduino build outputs
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# ROS 2 / colcon build outputs
+build/
+install/
+log/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+
+# Dependencies retrieved from the ROS workspace manifest
+/microros_agent_ws/src/micro-ROS-Agent/
+/microros_agent_ws/src/micro_ros_msgs/
+
+# Convenience archive duplicates the firmware sources
+/bot_diferencial/esp-32/CodigosRobotDiferencial.zip
+
+# Stray one-byte file in the original workspace
+/bot_diferencial/apt
